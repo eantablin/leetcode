@@ -23,8 +23,8 @@ def strongPasswordChecker(self, password: str) -> int:
                 
         elif passLen < 6:
             while passLen < 6:
-                passLen +=
-            for i in 
+                passLen += 1
+            # for i in 
         
         elif passLen > 20:
             password = password[:20:]
