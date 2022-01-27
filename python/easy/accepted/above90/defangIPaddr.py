@@ -3,6 +3,7 @@
 
 addr = "192.168.0.1"
 
+
 def defangIPaddr(address):
     pHolder = []
     for i in address:
@@ -32,3 +33,6 @@ def defangIPaddre(address):
 
 print(defangIPaddre(addr))
 
+
+
+y = mx + b

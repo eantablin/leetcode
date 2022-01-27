@@ -1,3 +1,5 @@
+# Gotta be in-place
+
 def duplicateZeros(arr):
     pHolder = []
     arrLen = len(arr)
@@ -13,4 +15,5 @@ def duplicateZeros(arr):
 
     arr = pHolder
     print(arr)
+
 duplicateZeros([1,0,2,3,0,4,5,0])
