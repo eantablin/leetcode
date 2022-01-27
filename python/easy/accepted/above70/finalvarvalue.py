@@ -16,8 +16,8 @@ def finalValueAfterOperations(operations):
 
 print(finalValueAfterOperations(operations))
 
-# Runtime: 89 ms, faster than 9.21% of Python3 online submissions for Final Value of Variable After Performing Operations.
-# Memory Usage: 14.2 MB, less than 47.81% of Python3 online submissions for Final Value of Variable After Performing Operations.
+# Runtime: 92 ms, faster than 14.58% of Python3 online submissions for Final Value of Variable After Performing Operations.
+# Memory Usage: 13.8 MB, less than 99.91% of Python3 online submissions for Final Value of Variable After Performing Operations.
 
 # operations = ["--X","X++","X++"]
 
