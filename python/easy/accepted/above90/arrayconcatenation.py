@@ -9,8 +9,8 @@ def getConcatenation(num):
 
 print(getConcatenation(nums))
 
-# Runtime: 88 ms, faster than 48.46% of Python3 online submissions for Concatenation of Array.
-# Memory Usage: 14.7 MB, less than 22.67% of Python3 online submissions for Concatenation of Array.
+# Runtime: 123 ms, faster than 31.38% of Python3 online submissions for Concatenation of Array.
+# Memory Usage: 14.1 MB, less than 99.90% of Python3 online submissions for Concatenation of Array.
 
 # nums = [1,2,1]
 
