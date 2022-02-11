@@ -1,17 +1,50 @@
-n = 9875
+n = "1241"
+
 
 def superDigit(n):
+    sum = 0
     
-    n = str(n)
+    while len(n) != 1:
+        
+        for i in n:
+            sum += int(i)
+            
+        n = str(sum)
+    
+    return sum
+    # Write your code here
+
+
+print(superDigit(n))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# n = 9875
+
+# def superDigit(n):
+    
+#     n = str(n)
 
     
-    while(len(n) != 1):
-        counter = 0
-        for i in n:
-            counter += int(i)
+#     while(len(n) != 1):
+#         counter = 0
+#         for i in n:
+#             counter += int(i)
         
-        n = str(counter)
+#         n = str(counter)
     
-    return counter
+#     return counter
     
-print(superDigit(n))
+# print(superDigit(n))
